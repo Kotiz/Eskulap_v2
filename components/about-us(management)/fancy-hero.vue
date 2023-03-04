@@ -1,0 +1,26 @@
+<template>
+  <div class="fancy-hero-one">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 col-lg-11 m-auto">
+          <h2 class="font-rubik">We're built for software management.</h2>
+        </div>
+        <div class="col-xl-9 col-lg-11 m-auto">
+          <p class="font-rubik">Our mission is to ensure software development teams can do their best work. So we created Clubhouse to provide the most intuitive and enjoyable project management platform teams actually want to use from project planning to product creation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bubble-one"></div>
+    <div class="bubble-two"></div>
+    <div class="bubble-three"></div>
+    <div class="bubble-four"></div>
+    <div class="bubble-five"></div>
+    <div class="bubble-six"></div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'FancyHero'
+}
+</script>
