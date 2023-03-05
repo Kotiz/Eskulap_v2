@@ -6,7 +6,7 @@
       >
       <ul class="dropdown-menu">
         <li v-for="(menu, index) in portfolio_data" :key="index">
-          <router-link :to="menu.url" class="dropdown-item">{{
+          <router-link :to="menu.url" class="dropdown-item" >{{
             menu.title
           }}</router-link>
         </li>

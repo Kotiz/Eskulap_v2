@@ -129,7 +129,7 @@
   opacity: 0.5; 
   font-size: 39px;
   font-family: "Trirong", serif;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .telephoneButton {
   background-color: #C19F38;
@@ -140,7 +140,7 @@
 }
 
 .telephoneButton:hover {
-  background-color: #5AA994;
+  background-color: rgb(90, 169, 148);
   color: black;
   border: 2px solid #C19F38;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -152,6 +152,9 @@
   background-color: #C19F38;
   border-radius: 15px 50px;
   text-align: center;
+}
+.backgroundClinic {
+  background-color: rgba(90, 169, 148, 0.7);
 }
               
 .ctn-preloader {
